@@ -68,7 +68,7 @@ public:
 
 private:
     /// @brief Status of the glfwInit call.
-    int init_status = GLFW_FALSE;
+    int init_status_ = GLFW_FALSE;
 };
 
 Visualizer::Visualizer() {}
